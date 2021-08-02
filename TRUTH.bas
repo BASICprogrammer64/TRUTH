@@ -10,7 +10,7 @@ OPTION DIALECT DARTMOUTH
 80             GOSUB 200
 90             LET X = R
 95             GOSUB 200
-100            LET X = P*SGN(Q=R)
+100            LET X = P*SGN(P*Q + P*R)
 110            GOSUB 200
 120            PRINT
 130        NEXT R
